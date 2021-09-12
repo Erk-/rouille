@@ -1,6 +1,6 @@
 rouille::rouille! {
     #[afled(Feljfind)]
-    enum Træ<T> {
+    nummerering Træ<T> {
         Blad(T),
         Gren(Kasse<Træ<T>>, Kasse<Træ<T>>),
     }
